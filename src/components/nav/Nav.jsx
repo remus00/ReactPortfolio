@@ -4,6 +4,7 @@ import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
 import { BiBook } from "react-icons/bi";
 import { RiServiceLine } from "react-icons/ri";
 import { BiMessageSquareDetail } from "react-icons/bi";
+import { LuFolderCheck } from "react-icons/lu";
 
 const Nav = () => {
     const [activeNav, setActiveNav] = useState("#");
@@ -35,7 +36,7 @@ const Nav = () => {
                 onClick={() => setActiveNav("#portfolio")}
                 className={activeNav === "#portfolio" ? "active" : ""}
             >
-                <RiServiceLine />
+                <LuFolderCheck />
             </a>
             <a
                 href="#contacts"
