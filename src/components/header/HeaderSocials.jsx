@@ -10,13 +10,22 @@ const HeaderSocials = () => {
             <a
                 href="https://www.linkedin.com/in/marian-remus-burlacu-8b6407274/"
                 target="_blank"
+                rel="noreferrer"
             >
                 <BsLinkedin />
             </a>
-            <a href="https://github.com/remus00" target="_blank">
+            <a
+                href="https://github.com/remus00"
+                target="_blank"
+                rel="noreferrer"
+            >
                 <FaGithub />
             </a>
-            <a href="https://www.instagram.com/remus_burlacu/" target="_blank">
+            <a
+                href="https://www.instagram.com/remus_burlacu/"
+                target="_blank"
+                rel="noreferrer"
+            >
                 <BsInstagram />
             </a>
         </div>
