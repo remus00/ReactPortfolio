@@ -1,8 +1,5 @@
 import React from "react";
 import "./portfolio.css";
-import IMG5 from "../../assets/img5.webp";
-import IMG6 from "../../assets/img6.webp";
-
 import TwitterImg from "../../assets/Twitter.jpg";
 import IMDbImg from "../../assets/IMDb.png";
 import MetaversusImg from "../../assets/metaversus.png";
