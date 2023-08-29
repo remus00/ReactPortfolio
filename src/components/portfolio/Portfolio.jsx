@@ -1,12 +1,12 @@
 import React from "react";
 import "./portfolio.css";
-import IMG4 from "../../assets/img4.webp";
 import IMG5 from "../../assets/img5.webp";
 import IMG6 from "../../assets/img6.webp";
 
 import TwitterImg from "../../assets/Twitter.jpg";
 import IMDbImg from "../../assets/IMDb.png";
 import MetaversusImg from "../../assets/metaversus.png";
+import CustomShirt from "../../assets/shirt-customizer.png";
 
 const data = [
     {
@@ -32,24 +32,10 @@ const data = [
     },
     {
         id: 4,
-        image: IMG4,
-        title: "Orion UI kit – data visualization and charts templates for Figma",
-        github: "https://github.com",
-        demo: "https://dribbble.com/shots/21455483-Orion-UI-kit-data-visualization-and-charts-templates-for-Figma",
-    },
-    {
-        id: 5,
-        image: IMG5,
-        title: "Eclipse - Figma dashboard UI kit for data design web apps",
-        github: "https://github.com",
-        demo: "https://dribbble.com/shots/21518827-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps",
-    },
-    {
-        id: 6,
-        image: IMG6,
-        title: "Orion UI kit – data visualization and charts templates for Figma",
-        github: "https://github.com",
-        demo: "https://dribbble.com/shots/21518922-Orion-UI-kit-data-visualization-and-charts-templates-for-Figma",
+        image: CustomShirt,
+        title: "Shirt customizer app using a 3D made with Vite.js and Next.js",
+        github: "https://github.com/remus00/shirt-customizer",
+        demo: "https://shirt-customizer-kohl.vercel.app/",
     },
 ];
 
