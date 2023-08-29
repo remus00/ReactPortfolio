@@ -39,7 +39,8 @@ const About = () => {
                         I'm a front end developer base in Turin with a keen eye
                         for designing good looking and user friendly web
                         application. <br />I would like to expand my horizons by
-                        gaining work experience and living outside Italy
+                        gaining work experience and living outside Italy for
+                        improving myself
                     </p>
 
                     <a href="#contacts" className="btn btn-primary">
