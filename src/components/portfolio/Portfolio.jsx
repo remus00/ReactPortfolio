@@ -4,6 +4,7 @@ import TwitterImg from "../../assets/Twitter.jpg";
 import IMDbImg from "../../assets/IMDb.png";
 import MetaversusImg from "../../assets/metaversus.png";
 import CustomShirt from "../../assets/shirt-customizer.png";
+import ColorPicker from "../../assets/colorPicker.png";
 
 const data = [
     {
@@ -33,6 +34,13 @@ const data = [
         title: "Shirt customizer app using a 3D made with Vite.js and Next.js",
         github: "https://github.com/remus00/shirt-customizer",
         demo: "https://shirt-customizer-kohl.vercel.app/",
+    },
+    {
+        id: 5,
+        image: ColorPicker,
+        title: "A simple React.js hex color picker and shade generator",
+        github: "https://github.com/remus00/ColorPicker",
+        demo: "https://color-picker-hazel.vercel.app/",
     },
 ];
 
