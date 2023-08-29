@@ -1,12 +1,12 @@
 import React from "react";
 import "./portfolio.css";
-import IMG3 from "../../assets/img3.webp";
 import IMG4 from "../../assets/img4.webp";
 import IMG5 from "../../assets/img5.webp";
 import IMG6 from "../../assets/img6.webp";
 
 import TwitterImg from "../../assets/Twitter.jpg";
 import IMDbImg from "../../assets/IMDb.png";
+import MetaversusImg from "../../assets/metaversus.png";
 
 const data = [
     {
@@ -19,16 +19,16 @@ const data = [
     {
         id: 2,
         image: IMDbImg,
-        title: "IMDb Clone - Made with Next.js and Tailwind CSS",
+        title: "IMDb Clone - A film db made with Next.js and Tailwind CSS",
         github: "https://github.com/remus00/IMDb",
         demo: "https://imdb-clone-hhdflx253-remus00.vercel.app/",
     },
     {
         id: 3,
-        image: IMG3,
-        title: "Eclipse - Figma dashboard UI kit for data design web apps",
-        github: "https://github.com",
-        demo: "https://dribbble.com/shots/21455491-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps",
+        image: MetaversusImg,
+        title: "A stunning design for a web application made in Next.js",
+        github: "https://github.com/remus00/Metaversus_design",
+        demo: "https://metaversus-omega-three.vercel.app/",
     },
     {
         id: 4,
