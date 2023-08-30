@@ -36,7 +36,7 @@ const About = () => {
                     <p>
                         Hi my name is Marian Remus Burlacu but u can just call
                         me Remus. <br />
-                        I'm a front end developer base in Turin with a keen eye
+                        I'm a front end developer based in Turin with a keen eye
                         for designing good looking and user friendly web
                         application. <br />I would like to expand my horizons by
                         gaining work experience and living outside Italy for
