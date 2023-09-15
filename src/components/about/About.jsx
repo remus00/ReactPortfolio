@@ -4,6 +4,7 @@ import square from "../../assets/square.png";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { LuFolderCheck } from "react-icons/lu";
+import { MdOutlineVolunteerActivism } from "react-icons/md";
 
 const About = () => {
     return (
@@ -23,7 +24,16 @@ const About = () => {
                         <article className="about__card">
                             <FaAward className="about__icon" />
                             <h5>Experience</h5>
-                            <small>Solo projects</small>
+                            <small>I worked on several Personal Projects</small>
+                        </article>
+
+                        <article className="about__card">
+                            <MdOutlineVolunteerActivism className="about__icon" />
+                            <h5>Volunteering</h5>
+                            <small>
+                                Worked on a next.js form for an insurance
+                                company
+                            </small>
                         </article>
 
                         <article className="about__card">
