@@ -5,6 +5,7 @@ import IMDbImg from "../../assets/IMDb.png";
 import MetaversusImg from "../../assets/metaversus.png";
 import CustomShirt from "../../assets/shirt-customizer.png";
 import ColorPicker from "../../assets/colorPicker.png";
+import CorporateApp from "../../assets/corporate-app.png";
 
 const data = [
     {
@@ -37,6 +38,13 @@ const data = [
     },
     {
         id: 5,
+        image: CorporateApp,
+        title: "A simple React.js + Bootstap app, for learning purpose",
+        github: "https://github.com/remus00/Corporate-App",
+        demo: "https://corporate-app.vercel.app/",
+    },
+    {
+        id: 6,
         image: ColorPicker,
         title: "A simple React.js hex color picker and shade generator",
         github: "https://github.com/remus00/ColorPicker",
