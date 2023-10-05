@@ -45,12 +45,14 @@ const About = () => {
 
                     <p>
                         Hi my name is Marian Remus Burlacu but u can just call
-                        me Remus. <br />
+                        me Remus.
+                        <br />
                         I'm a front end developer based in Turin with a keen eye
                         for designing good looking and user friendly web
-                        application. <br />I would like to expand my horizons by
-                        gaining work experience and living outside Italy for
-                        improving myself
+                        application.
+                        <br />I would love to expand my horizons by gaining
+                        experience, improving and becoming the best version of
+                        myself.
                     </p>
 
                     <a href="#contacts" className="btn btn-primary">
