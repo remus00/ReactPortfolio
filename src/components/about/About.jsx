@@ -44,7 +44,7 @@ const About = () => {
                     </div>
 
                     <p>
-                        Hi my name is Marian Remus Burlacu but u can just call
+                        Hi my name is Marian Remus Burlacu but you can just call
                         me Remus.
                         <br />
                         I'm a front end developer based in Turin with a keen eye
