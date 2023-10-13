@@ -1,12 +1,13 @@
-import React from "react";
-import "./experience.css";
-import { BsPatchCheckFill } from "react-icons/bs";
-import {AiFillHtml5} from "react-icons/ai";
-import {BiLogoCss3, BiLogoJavascript, BiLogoReact, BiLogoJava} from "react-icons/bi"
-import {SiTailwindcss} from "react-icons/si"
-import {FaPython} from "react-icons/fa"
-import {SiCoursera} from "react-icons/si"
-import {GrMysql} from "react-icons/gr"
+import React from 'react';
+import './experience.css';
+// import { BsPatchCheckFill } from 'react-icons/bs';
+import { AiFillHtml5 } from 'react-icons/ai';
+import { BiLogoCss3, BiLogoJavascript, BiLogoReact, BiLogoJava } from 'react-icons/bi';
+import { SiTailwindcss } from 'react-icons/si';
+import { FaPython } from 'react-icons/fa';
+import { SiCoursera, SiSass, SiNextdotjs } from 'react-icons/si';
+import { GrMysql } from 'react-icons/gr';
+
 const Experience = () => {
     return (
         <section id="experience">
@@ -21,9 +22,7 @@ const Experience = () => {
                             <AiFillHtml5 className="experience__details-icon" />
                             <div>
                                 <h4>HTML</h4>
-                                <small className="text-light">
-                                    Experienced
-                                </small>
+                                <small className="text-light">Experienced</small>
                             </div>
                         </article>
 
@@ -31,9 +30,7 @@ const Experience = () => {
                             <BiLogoCss3 className="experience__details-icon" />
                             <div>
                                 <h4>CSS</h4>
-                                <small className="text-light">
-                                    Intermediate
-                                </small>
+                                <small className="text-light">Intermediate</small>
                             </div>
                         </article>
 
@@ -41,9 +38,15 @@ const Experience = () => {
                             <SiTailwindcss className="experience__details-icon" />
                             <div>
                                 <h4>Tailwind CSS</h4>
-                                <small className="text-light">
-                                    Intermediate
-                                </small>
+                                <small className="text-light">Intermediate</small>
+                            </div>
+                        </article>
+
+                        <article className="experience__details">
+                            <SiSass className="experience__details-icon" />
+                            <div>
+                                <h4>Sass</h4>
+                                <small className="text-light">Intermediate</small>
                             </div>
                         </article>
 
@@ -51,9 +54,7 @@ const Experience = () => {
                             <BiLogoJavascript className="experience__details-icon" />
                             <div>
                                 <h4>JavaScript</h4>
-                                <small className="text-light">
-                                    Intermediate
-                                </small>
+                                <small className="text-light">Intermediate</small>
                             </div>
                         </article>
 
@@ -61,19 +62,15 @@ const Experience = () => {
                             <BiLogoReact className="experience__details-icon" />
                             <div>
                                 <h4>React.js</h4>
-                                <small className="text-light">
-                                    Intermediate
-                                </small>
+                                <small className="text-light">Intermediate</small>
                             </div>
                         </article>
 
                         <article className="experience__details">
-                            <BsPatchCheckFill className="experience__details-icon" />
+                            <SiNextdotjs className="experience__details-icon" />
                             <div>
                                 <h4>Next.js</h4>
-                                <small className="text-light">
-                                    Intermediate
-                                </small>
+                                <small className="text-light">Intermediate</small>
                             </div>
                         </article>
                     </div>
@@ -87,9 +84,7 @@ const Experience = () => {
                             <BiLogoJava className="experience__details-icon" />
                             <div>
                                 <h4>Java</h4>
-                                <small className="text-light">
-                                    Intermediate
-                                </small>
+                                <small className="text-light">Intermediate</small>
                             </div>
                         </article>
 
@@ -97,9 +92,7 @@ const Experience = () => {
                             <SiCoursera className="experience__details-icon" />
                             <div>
                                 <h4>C</h4>
-                                <small className="text-light">
-                                    Intermediate
-                                </small>
+                                <small className="text-light">Intermediate</small>
                             </div>
                         </article>
 
@@ -107,9 +100,7 @@ const Experience = () => {
                             <GrMysql className="experience__details-icon" />
                             <div>
                                 <h4>MySQL</h4>
-                                <small className="text-light">
-                                    Intermediate
-                                </small>
+                                <small className="text-light">Intermediate</small>
                             </div>
                         </article>
 
@@ -117,9 +108,7 @@ const Experience = () => {
                             <FaPython className="experience__details-icon" />
                             <div>
                                 <h4>Python</h4>
-                                <small className="text-light">
-                                    Intermediate
-                                </small>
+                                <small className="text-light">Intermediate</small>
                             </div>
                         </article>
                     </div>
