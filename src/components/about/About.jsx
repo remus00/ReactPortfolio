@@ -1,10 +1,10 @@
-import React from "react";
-import "./about.css";
-import square from "../../assets/square.png";
-import { FaAward } from "react-icons/fa";
-import { FiUsers } from "react-icons/fi";
-import { LuFolderCheck } from "react-icons/lu";
-import { MdOutlineVolunteerActivism } from "react-icons/md";
+import React from 'react';
+import './about.css';
+import square from '../../assets/square.png';
+import { FaAward } from 'react-icons/fa';
+import { FiUsers } from 'react-icons/fi';
+import { LuFolderCheck } from 'react-icons/lu';
+import { MdOutlineVolunteerActivism } from 'react-icons/md';
 
 const About = () => {
     return (
@@ -15,7 +15,7 @@ const About = () => {
             <div className="container about__container">
                 <div className="about__me">
                     <div className="about__me-image">
-                        <img src={square} alt="about image" />
+                        <img src={square} alt="about" />
                     </div>
                 </div>
 
@@ -30,10 +30,7 @@ const About = () => {
                         <article className="about__card">
                             <MdOutlineVolunteerActivism className="about__icon" />
                             <h5>Volunteering</h5>
-                            <small>
-                                Worked on a next.js form for an insurance
-                                company
-                            </small>
+                            <small>Worked on a next.js form for an insurance company</small>
                         </article>
 
                         <article className="about__card">
@@ -44,15 +41,12 @@ const About = () => {
                     </div>
 
                     <p>
-                        Hi my name is Marian Remus Burlacu but you can just call
-                        me Remus.
+                        Hi my name is Marian Remus Burlacu but you can just call me Remus.
                         <br />
-                        I'm a front end developer based in Turin with a keen eye
-                        for designing good looking and user friendly web
-                        application.
-                        <br />I would love to expand my horizons by gaining
-                        experience, improving and becoming the best version of
-                        myself.
+                        I'm a front end developer based in Turin with a keen eye for designing good
+                        looking and user friendly web application.
+                        <br />I would love to expand my horizons by gaining experience, improving
+                        and becoming the best version of myself.
                     </p>
 
                     <a href="#contacts" className="btn btn-primary">

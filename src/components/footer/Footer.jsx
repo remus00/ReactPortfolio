@@ -1,8 +1,8 @@
-import React from "react";
-import "./footer.css";
-import { BsInstagram } from "react-icons/bs";
-import { BsLinkedin } from "react-icons/bs";
-import { FaGithub } from "react-icons/fa";
+import React from 'react';
+import './footer.css';
+import { BsInstagram } from 'react-icons/bs';
+import { FaGithub } from 'react-icons/fa';
+import { GrLinkedinOption } from 'react-icons/gr';
 
 const Footer = () => {
     return (
@@ -35,11 +35,7 @@ const Footer = () => {
             </ul>
 
             <div className="footer__socials">
-                <a
-                    href="https://github.com/remus00"
-                    target="_blank"
-                    rel="noreferrer"
-                >
+                <a href="https://github.com/remus00" target="_blank" rel="noreferrer">
                     <FaGithub />
                 </a>
                 <a
@@ -47,13 +43,9 @@ const Footer = () => {
                     target="_blank"
                     rel="noreferrer"
                 >
-                    <BsLinkedin />
+                    <GrLinkedinOption />
                 </a>
-                <a
-                    href="https://instagram.com"
-                    target="_blank"
-                    rel="noreferrer"
-                >
+                <a href="https://instagram.com" target="_blank" rel="noreferrer">
                     <BsInstagram />
                 </a>
             </div>

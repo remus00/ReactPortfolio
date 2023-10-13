@@ -1,49 +1,51 @@
-.container.contacts__container{
+.container.contacts__container {
     width: 58%;
     display: grid;
     grid-template-columns: 30% 58%;
     gap: 12rem;
 }
 
-.contact__options{
+.contact__options {
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
 }
 
-.contact__option{
+.contact__option {
     background: var(--color-bg-variant);
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
-    border: 1px solid transparent;
+    border: 3px solid transparent;
     transition: var(--transition);
 }
 
-.contact__option:hover{
+.contact__option:hover {
     background: transparent;
     border-color: var(--color-primary-variant);
+    transform: scale(1.05);
 }
 
-.contact__option-icon{
+.contact__option-icon {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
 }
 
-.contact__option a{
+.contact__option a {
     margin-top: 0.7rem;
     display: inline-block;
     font-size: 0.8rem;
 }
 
 /* ----- FORM ----- */
-form{
+form {
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
 }
 
-input, textarea{
+input,
+textarea {
     font-family: inherit;
     width: 100%;
     padding: 1.5rem;
@@ -54,21 +56,29 @@ input, textarea{
     color: var(--color-white);
 }
 
-button{
+button {
     font-family: inherit;
 }
 
 /* ----- MEDIA QUERIES (MEDIUM DEVICES) ----- */
-@media screen and (max-width: 1024px){
-    .container.contacts__container{
+@media screen and (max-width: 1024px) {
+    .container.contacts__container {
         grid-template-columns: 1fr;
         gap: 2rem;
+    }
+
+    .contact__option:hover {
+        transform: none;
     }
 }
 
 /* ----- MEDIA QUERIES (SMALL DEVICES) ----- */
-@media screen and (max-width: 600px){
-    .container.contacts__container{
+@media screen and (max-width: 600px) {
+    .container.contacts__container {
         width: var(--container-width-sm);
+    }
+
+    .contact__option:hover {
+        transform: none;
     }
 }
